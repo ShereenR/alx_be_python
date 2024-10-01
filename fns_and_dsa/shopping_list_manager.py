@@ -5,14 +5,13 @@ def display_menu():
     print("2. Remove Item")
     print("3. View List")
     print("4. Exit")
-
+  item = input("Ener an item add: ")
 def main():
     shopping_list = []
     while True:
         display_menu()
         choice = input("Enter your choice: ")
         if choice == 1:
-            item = input("Ener an item add: ")
             shopping_list.append(item)
         elif choice == 2:
            item = input("Enter an item to remove: ")
