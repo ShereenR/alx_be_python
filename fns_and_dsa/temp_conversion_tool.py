@@ -15,4 +15,4 @@ elif choice_temp2 =="f":
     converted_temp=convert_to_celsius(choice_temp)
     print(f"{choice_temp} °F is {converted_temp:.2f} °C")
 else:
-    print("Invalid temperature. Please enter a numeric value")
+    print("Invalid temperature. Please enter a numeric value.")
