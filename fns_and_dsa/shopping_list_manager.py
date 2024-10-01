@@ -12,19 +12,19 @@ def main():
         display_menu()
         choice = input("Enter your choice: ")
 
-        if choice == '1':
+        if choice == 1:
             item = input("Ener an item add: ")
             shopping_list.append(item)
-        elif choice == '2':
+        elif choice == 2:
            item = input("Enter an item to remove: ")
            if item in shopping_list:
                shopping_list.remove(item)
                print(f"{item} is removed")
            else:
                print(f"{item}is not found in the list")
-        elif choice == '3':
+        elif choice == 3:
             print(shopping_list)
-        elif choice == '4':
+        elif choice == 4:
             print("Goodbye!")
             break
         else:
