@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self,account_balance=0):
         self.__account_balance =account_balance
-    def deposit( self,amount):
+    def deposit( self, amount):
         amount=int(input("Enter your amount you want to deposit: "))
         self.__account_balance+= amount
         print(f"Deposited: ${amount}")
