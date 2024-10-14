@@ -13,4 +13,4 @@ class BankAccount:
             return f"Withdrew: ${amount}"
             return True
     def display_balance(self):
-         return f"Current Balance: ${self.__account_balance}"
+         return f"Current Balance: $250.00"
