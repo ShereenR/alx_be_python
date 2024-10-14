@@ -15,7 +15,3 @@ class BankAccount:
             return False
     def display_balance(self):
         print(f"Current Balance: ${self.__account_balance}")
- python main-0.py deposit:50
- python main-0.py withdraw:20
-  python main-0.py withdraw:150
- python main-0.py display
