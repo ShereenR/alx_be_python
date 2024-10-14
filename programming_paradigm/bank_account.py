@@ -1,5 +1,5 @@
 class BankAccount:
-    def __init__(self, Current Balance:=0):
+    def __init__(self, Current Balance=0):
         self.__account_balance = initial_balance
     def deposit(self, amount):
         if amount > 0:
