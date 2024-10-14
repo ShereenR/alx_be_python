@@ -4,7 +4,7 @@ class BankAccount:
     def deposit( self,amount):
         amount=int(input("Enter your amount you want to deposit: "))
         self.__account_balance+= amount
-        print(f"Deposited:${amount}")
+        print(f"Deposited: ${amount}")
     def withdraw(self):
         amount=float(input("Enter your amount you want to withdraw: "))
         if 0 < amount <= self.__account_balance:
