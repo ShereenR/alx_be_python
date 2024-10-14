@@ -1,7 +1,6 @@
 class BankAccount:
     def __init__(self, account_balance=0):
         self.__account_balance = account_balance
-
     def deposit(self):
         amount = int(input("Enter your amount you want to deposit: "))
         if amount > 0:
@@ -9,7 +8,6 @@ class BankAccount:
             print(f"Deposited: ${amount}")
         else:
             print("Deposit amount must be positive.")
-
     def withdraw(self):
         amount = float(input("Enter your amount you want to withdraw: "))
         if 0 < amount <= self.__account_balance:
@@ -19,13 +17,8 @@ class BankAccount:
         else:
             print("Insufficient balance.")
             return False
-
     def display_balance(self):
         print(f"Current Balance: ${self.__account_balance}")
-
-# إنشاء حساب جديد
 account = BankAccount()
-
-# استدعاء الدالة مع إدخال المستخدم
-account.deposit()  # ستطلب من المستخدم إدخال المبلغ
-account.display_balance()  # عرض الرصيد الحالي
+account.deposit() 
+account.display_balance() 
