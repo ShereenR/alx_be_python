@@ -33,15 +33,3 @@ class Library:
         else:
             for book in self.books:
                 print(book)  
-# مثال على الاستخدام
-library = Library()
-# إنشاء بعض الكتب وإضافتها إلى المكتبة
-book1 = Book("1984", "George Orwell")
-ebook1 = EBook("Python Programming", "John Doe", 500)
-printbook1 = PrintBook("The Great Gatsby", "F. Scott Fitzgerald", 180)
-
-library.add_book(book1)
-library.add_book(ebook1)
-library.add_book(printbook1)
-# عرض الكتب في المكتبة
-library.list_books()
