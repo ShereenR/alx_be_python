@@ -33,3 +33,12 @@ class Library:
         else:
             for book in self.books:
                 print(book)  
+
+# Add books to the library
+    my_library.add_book(classic_book)
+    my_library.add_book(digital_novel)
+    my_library.add_book(paper_novel)
+
+    # List all books in the library
+    my_library.list_books()
+
