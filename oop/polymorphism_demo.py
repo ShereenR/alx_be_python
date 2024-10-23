@@ -13,3 +13,7 @@ class Circle(Shape):
             self.radius=radius
         def area(self):
               return f"The area of the Circle is: {math.pi * (self.radius ** 2)}"
+rectangle = Rectangle(10, 5)  
+circle = Circle(7)         
+print(rectangle.area()) 
+print(circle.area())
