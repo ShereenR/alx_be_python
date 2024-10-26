@@ -33,3 +33,5 @@ class Library:
         else:
             for book in self.books:
                 print(book) 
+if __name__ == "__main__":
+    main()
